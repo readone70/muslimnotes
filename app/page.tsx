@@ -89,7 +89,7 @@ export default function Home() {
               variants={fadeUp}
               className="text-base sm:text-lg md:text-xl lg:text-2xl text-zinc-500 mb-8 sm:mb-12 max-w-2xl leading-relaxed tracking-tight px-2 sm:px-0"
             >
-              The premium space to organize your Islamic learning, transform khutbahs into actionable insights, and grow your deen.
+              The premium space to organize your Islamic learning, transform lectures into actionable insights, and grow your deen.
             </motion.p>
 
             <motion.div variants={fadeUp} className="w-full max-w-md space-y-3 sm:space-y-4 px-2 sm:px-0">
@@ -104,7 +104,7 @@ export default function Home() {
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1.2, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-            className="mt-10 sm:mt-16 relative w-full max-w-[280px] sm:max-w-md md:max-w-xl lg:max-w-3xl aspect-[3/4] sm:aspect-square mx-auto"
+            className="mt-10 sm:mt-16 relative w-full max-w-3xl sm:max-w-3xl md:max-w-3xl lg:max-w-3xl aspect-[3/4] sm:aspect-square mx-auto"
           >
             <Image
               src="/product-image.png"
@@ -172,7 +172,7 @@ export default function Home() {
                     <Sparkles className="w-5 h-5" />
                   </div>
                   <h3 className="text-xl sm:text-2xl font-bold tracking-tight mb-2 sm:mb-3">AI Summaries</h3>
-                  <p className="text-zinc-400 text-base sm:text-lg">Distill hour-long khutbahs into concise, actionable takeaways.</p>
+                  <p className="text-zinc-400 text-base sm:text-lg">Distill hour-long lectures into concise, actionable takeaways.</p>
                 </div>
               </motion.div>
 
