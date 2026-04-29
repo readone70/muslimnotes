@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: "MuslimNotes - Capture Knowledge. Reflect Deeply.",
     description: "The premium space to organize your Islamic learning, transform khutbahs into actionable insights, and grow your deen.",
-    images: [
-      { url: "https://muslimnotes.com/og-image.jpg" },
-    ],
+    // images: [
+    //   { url: "https://muslimnotes.com/og-image.jpg" },
+    // ],
   },
   // twitter: {
   //   card: "summary_large_image",
